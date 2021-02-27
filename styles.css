@@ -1,0 +1,195 @@
+/* selectors
+box model
+background-color
+font family
+pseudoclasses
+strong and em tags
+overflow
+borders
+block elements
+Font weight 
+Font style */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  background-image: url("https://fanart.tv/fanart/music/7113aab7-628f-4050-ae49-dbecac110ca8/artistbackground/ub40-5012fce4e0a07.jpg");
+  background-color: rgba(73, 73, 71, 0.432);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding: 5px;
+  margin: 40px;
+  font-size: 20px;
+}
+
+#red {
+  color: red;
+}
+#yellow {
+  color: yellow;
+}
+
+#green {
+  color: green;
+}
+hr{
+  width: 50%;
+}
+.header a {
+  color: green;
+  text-decoration: none;
+}
+
+.header, a:hover{
+  background-color: green;
+  color: white;
+  padding: 3px;
+  border-radius: 10px;
+}
+.header {
+  background-color: transparent;
+  background-size: 1800px;
+  text-decoration: underline;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+  height: auto;
+  margin: 40px;
+  text-align: center;
+  font-size: 40px;
+  border: 5px solid inherit ;
+}
+
+.main_content {
+  background-color: rgba(0, 0, 0, 0.815);
+  box-shadow: 0px 0px 20px 10px green;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 40px;
+  height: auto;
+  float: left;
+}
+
+#member_heading{
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+.bout_them {
+  background-image: linear-gradient(to right, green, yellow, red);
+  font-family: monospace;
+  padding: 10px;
+  color: #000000;
+  margin: 15px;
+  border-radius: 10px;
+
+}
+.band_members{
+  text-align: center;
+}
+
+.member {
+  background-color: rgba(143, 138, 134, 0.705);
+  width: 50%;
+  margin: 10px;
+  border-radius:30px 15px 50px 0px;
+}
+.member#right {
+  background-color: rgba(143, 138, 134, 0.705);
+  width: 65%;
+  height: 600px;
+  float: right;
+}
+.member#left {
+  width: 65%;
+  height: 600px;
+  float: left;
+}
+
+.band_text{
+  background-color: rgba(0, 0, 0, 0.712);
+  padding: 5px;
+  width: 550px;
+  height: 300px;
+  overflow-y: scroll;
+  margin-left: 50px;
+  
+}
+.band_text1{
+  background-color: rgba(0, 0, 0, 0.712);
+  width: 550px;
+  height: 300px;
+  overflow-y: scroll;
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+
+}
+
+img {
+  box-shadow: 9px 13px 20px 5px rgb(115, 128, 0);
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: inline;
+  margin-top: 7px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+img#image2{
+  float:right;
+  margin-right: 30px;
+}
+
+#member_name{
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  font-family: cursive;
+  font-weight: 500;
+
+}
+/* Favorite albums and songs */
+.songs {
+  background-color: violet;
+  margin: 30px;
+  width: 93%;
+  float: left;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.song_container{
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 50px 5px 5px 50px;
+  width: 45%;
+  height: 600px;
+  padding: 30px;
+}
+
+.song_container#fav_song{
+  border-radius: 5px 50px 50px 5px;
+  float: left;
+}
+.song_container#albums{
+  float: right;
+}
+#p_song{
+  font-size: 20px;
+}
+#h_song{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+ul{
+  list-style-type: square;
+}
+ol.ablum_li{
+  color: white;
+}
