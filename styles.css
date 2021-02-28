@@ -25,27 +25,27 @@ body {
 }
 
 #red {
-  color: red;
+  color: #ff0000;
 }
 #yellow {
-  color: yellow;
+  color: #ffff00;
 }
 
 #green {
-  color: green;
+  color: #008000;
 }
 hr{
   width: 50%;
 }
-.header a {
-  color: green;
+a {
+  color: #008000;
   text-decoration: none;
 }
 
-.header, a:hover{
-  background-color: green;
-  color: white;
-  padding: 3px;
+a:hover{
+  background-color: #e1f100;
+  color: #000;
+  padding: 5px;
   border-radius: 10px;
 }
 .header {
@@ -112,19 +112,22 @@ hr{
   background-color: rgba(0, 0, 0, 0.712);
   padding: 5px;
   width: 550px;
-  height: 300px;
+  height: 200px;
   overflow-y: scroll;
+  margin-top: 120px;
   margin-left: 50px;
+  font-size: 20px;
   
 }
 .band_text1{
   background-color: rgba(0, 0, 0, 0.712);
   width: 550px;
-  height: 300px;
+  height: 200px;
   overflow-y: scroll;
   float: right;
-  margin-top: 20px;
+  margin-top: 100px;
   margin-right: 50px;
+  font-size: 20px;
 
 }
 
@@ -155,13 +158,15 @@ img#image2{
 }
 /* Favorite albums and songs */
 .songs {
-  background-color: violet;
+  background-color: rgba(155, 155, 127, 0.829);
   margin: 30px;
   width: 93%;
   float: left;
   padding: 30px;
   border-radius: 20px;
   font-size: 20px;
+  box-shadow: 0px 0px 20px 5px rgb(115, 128, 0);
+
 }
 
 .song_container{
