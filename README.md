@@ -10,7 +10,8 @@ This is a simple webiste of my favorite band the UB40 which was formed in 1978. 
 
 ## Access the website
 follow this link https://layersony.github.io/my_favorite_band/
-##Technologies USed
+
+## Technologies USed
 HTML, CSS
 
 ## Contact Details
